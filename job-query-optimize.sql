@@ -210,4 +210,4 @@ SELECT
         Jobs.id 
     ORDER BY
         Jobs.sort_order DESC,
-        Jobs.id DESC LIMIT 50 OFFSET 0
+        Jobs.id DESC LIMIT 50
