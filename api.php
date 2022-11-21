@@ -1,7 +1,7 @@
 <?php
 header("Content-Type:application/json");
 
-$conn = new mysqli('localhost', 'root', '@Empatbelas14','tyrell');
+$conn = new mysqli('localhost', 'tyrell_user', 'YtrKPZDeaCn0x0E7','tyrell_cards');
 
 $total_player = $_POST['total_player'];
 $result = mysqli_query($conn,"SELECT card_name FROM cards");
