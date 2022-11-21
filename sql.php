@@ -42,7 +42,7 @@ $result_B = $conn->query($sql_B);
 if ($result_B->num_rows > 0) {
 
     while($row_B = $result_B->fetch_assoc()) {
-        echo "Jobs__id: " . $row_B["Jobs__id"]. " - Jobs__name: " . $row_B["name"]. "- Jobs__description: " . $row_B["Jobs__description"]. "<br>";
+        echo "Jobs__id: " . $row_B["Jobs__id"]. " - Jobs__name: " . $row_B["Jobs__name"]. "- Jobs__description: " . $row_B["Jobs__description"]. "<br>";
       }
 
 } else {
