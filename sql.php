@@ -59,11 +59,9 @@ $queryTime = number_format($difference, 10);
 echo "Optimize SQL query faster in $queryTime seconds.";
 
 echo "<br><b>Optimization Details</b><br>";
-echo '<textarea rows="20" cols="50">';
 echo 'Remove OFFSET<br>';
 echo 'create indexes for affiliates (`type`); <br>';
 echo 'create indexes for jobs (`publish_status`,`id`); <br>';
-echo '</textarea><br>';
 echo "</center>";
 $conn->close();
 
