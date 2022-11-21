@@ -16,7 +16,7 @@ $result_A = $conn->query($sql_A);
 if ($result_A->num_rows > 0) {
 
     while($row_A = $result_A->fetch_assoc()) {
-        echo "Jobs__id: " . $row_A["Jobs__id"]. " - Jobs__name: " . $row_A["name"]. "- Jobs__description: " . $row_A["Jobs__description"]. "<br>";
+        echo "Jobs__id: " . $row_A["Jobs__id"]. " - Jobs__name: " . $row_A["Jobs__name"]. "- Jobs__description: " . $row_A["Jobs__description"]. "<br>";
       }
 
 } else {
