@@ -60,11 +60,12 @@ echo "Optimize SQL query faster in $queryTime seconds.";
 
 echo "<br><b>Optimization Details</b><br>";
 echo '<textarea rows="20" cols="50">';
-echo 'Query produce no result need more info and if performance required server side tweking';
+echo 'Remove OFFSET<br>';
+echo 'create indexes for affiliates (`type`); <br>';
+echo 'create indexes for jobs (`publish_status`,`id`); <br>';
 echo '</textarea><br>';
 echo "</center>";
 $conn->close();
-
 
 
 
